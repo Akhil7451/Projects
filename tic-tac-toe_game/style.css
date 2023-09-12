@@ -1,0 +1,58 @@
+body {
+  background: #212121;
+  color: #666;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.text-center {
+  width: 350px;
+  overflow: auto;
+  margin: 40px auto;
+  background: #666;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+#message {
+  text-align: center;
+  background: #333;
+  color: rgb(26, 164, 26);
+}
+
+#gameBoard li {
+  float: left;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  font-size: 50px;
+  background: #333;
+  color: #ccc;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#gameBoard li:hover,
+#restart:hover {
+  cursor: pointer;
+  background: #000;
+}
+
+#restart {
+  border: 0;
+  background: #444;
+  color: #fff;
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
